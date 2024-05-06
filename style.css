@@ -1,0 +1,415 @@
+/*home*/
+
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    height:100vh;
+    width:100%;
+    background-image: url(/img/home/donate.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position:relative;
+}
+#menu{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+}
+#menu img{
+    width:150px;
+    margin-left: 30px;
+    margin-bottom: auto;
+}
+#menu ul{
+    margin-right: 75px;
+}
+#menu ul li{
+    list-style:none;
+    display:inline;
+}
+#menu ul li a{
+    display:inline-block;
+    font-family:Montserrat;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: inherit;
+    padding:10px 20px;
+    line-height:80px;
+    font-weight: bold;
+    color:#fff;
+    transition:color 0.5s linear;
+}
+#menu ul li a:hover{
+    color:rgb(178, 103, 60);
+}
+#content{
+    margin:0 auto;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-start;
+}
+.text{
+    margin-top:120px;
+    font-family: faustina;
+    position:relative;
+    width:40%;
+}
+.text h1{
+    color:brown;
+    font-size:90px;
+    line-height:1.3em;
+}
+.text p {
+    color:#fff;
+    font-size:20px;
+    line-height:2em;
+}
+.button{
+    float:right;
+    width:170px;
+    border-radius: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color:green;
+    text-transform: uppercase;
+    font-weight: 600;
+    display:inline-block;
+    margin-top: 30px;
+    border:3px solid green;
+    background-image: linear-gradient(30deg,green 50%,transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    cursor:pointer;
+    transition: background 300ms ease-in-out;
+}
+.button:hover{
+    background-position: 100%;
+    color:green;
+}
+
+
+
+/*LOGIN*/
+
+body{
+    margin: 0;
+    padding:0;
+    background-image: url(img/login/kids.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.loginbox{
+    width:320px;
+    height:420px;
+    background:#000;
+    color:#fff;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    padding:70px 30px;
+}
+.logo{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    position:absolute;
+    top:-30px;
+    left:calc(50%  - 50px);
+}
+.h1{
+    margin:0;
+    padding:0 0 20px;
+    text-align: center;
+    font-size:22px;
+}
+.loginbox p{
+    margin:0;
+    padding:0;
+    font-weight: bold;
+}
+.loginbox input{
+    width:100%;
+    margin-bottom:20px;
+}
+.loginbox input[type="text"],input[type="Password"]
+{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    outline:none;
+    height:40px;
+    color:#fff;
+    font-size: 16px;
+
+}
+.loginbox input[type="submit"]
+{
+    border:none;
+    outline:none;
+    height:40px;
+    background:#fb2525;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover{
+    cursor:pointer;
+    background:#ffc107;
+    color:#000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color:darkgrey;
+}
+.loginbox a:hover{
+    color:#ffc107;
+}
+
+
+/*About us*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.section{
+    width:100%;
+    min-height:100vh;
+    background-color: #ddd;
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width:55%;
+}
+.image-section{
+    float:right;
+    width:55%;
+}
+.image-section img{
+    width:100%;
+    height:auto;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.content-section .content h3{
+    margin-top: 20px;
+    color: #5d5d5d;
+    font-size: 21px;
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-family:sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.content-section .social{
+    margin:40px 40px;
+}
+.content-section .social i{
+    color:green;
+    font-size:30px;
+    padding:0px 10px;
+}
+.content-section .social i:hover{
+    color:#3d3d3d;
+}
+@media  screen and (max-width:768px){
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top:50px;
+
+}
+.content-section{
+    float:none;
+    width:100%;
+    display: block;
+    margin: auto;
+}
+.image-section{
+    float:none;
+    width:100%;
+}
+.image-section img{
+    width: 100%;
+    height:auto;
+    display:block;
+    margin:auto;
+}
+.content-section .title{
+    text-align: center;
+    font-size: 19px;
+}
+.content-section .social{
+    text-align: center;
+}
+}
+
+/*Features*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+.container{
+    width:100%;
+    height:100vh;
+    padding:0 8%;
+    background-color: #fff;
+}
+.container h1{
+    text-align: center;
+    padding-top:10%;
+    margin-bottom:60px;
+    font-weight:600;
+    position:relative;
+}
+.container h1::after{
+    content:'';
+    background:green;
+    width:100px;
+    height:5px;
+    position:absolute;
+    bottom:-5px;
+    left:50%;
+    transform:translatex(-50%);
+}
+.row{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:30px;
+}
+.services{
+    text-align: center;
+    padding:25px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor:pointer;
+    background: transparent;
+    transition:transform 0.5s, background 0.5s;
+}
+.services i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color:green;
+}
+.services h2{
+    font-weight: 600;
+    margin-bottom:8px;
+}
+.services:hover{
+    background: green;
+    color:#fff;
+    transform: scale(1.05);
+}
+.services:hover i{
+    color: #fff;
+}
+
+
+/*Contactus*/
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width:100%;
+    height:100vh;
+    background-image:url(img/contactus/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width:90%;
+    max-width:600px;
+}
+.input-group{
+    margin-bottom:30px;
+    position: relative;
+}
+input,textarea{
+    width:100%;
+    padding:10px;
+    outline:0;
+    border:1px solid #fff;
+    color:#fff;
+    background: transparent;
+    font-size: 15px;
+}
+label{
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    padding:10px;
+    color:#fff;
+    cursor:text;
+    transition: 0.2s;
+}
+button{
+    padding:10px 0;
+    color:#fff;
+    outline:none;
+    background: transparent;
+    border:1px solid #fff;
+    width:100%;
+    cursor:pointer;
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label
+{
+    top:-35px;
+    font-size: 14px;
+
+}
+.row{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row .input-group{
+    flex-basis:48% ;
+}
+
+
+
+
